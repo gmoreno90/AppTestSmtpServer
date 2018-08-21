@@ -1,7 +1,8 @@
 # AppTestSmtpServer
 With this console app you can check if a SMTP server is working
 
-In order to configure the tester only you need to get the file App.config and set the smtp server values
+## How to use it
+In order to configure the tester, only you need to edit the file ```App.config``` and set the smtp server values
 ```
 <AppTestSMTPServer.Properties.Settings>
       <setting name="SmtpServer" serializeAs="String">
