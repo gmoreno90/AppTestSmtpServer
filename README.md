@@ -2,7 +2,7 @@
 With this console app you can check if a SMTP server is working
 
 In order to configure the tester only you need to get the file App.config and set the smtp server values
-
+```
 <AppTestSMTPServer.Properties.Settings>
       <setting name="SmtpServer" serializeAs="String">
         <value>##SMTP Address##</value>
@@ -28,6 +28,5 @@ In order to configure the tester only you need to get the file App.config and se
       <setting name="ToAddress" serializeAs="String">
         <value>##emailAdresses to sent email##</value>
       </setting>
-    </AppTestSMTPServer.Properties.Settings>
-    
-    
+</AppTestSMTPServer.Properties.Settings>
+```
