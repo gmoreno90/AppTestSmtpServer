@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PolarTurModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PolarTurEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CORREOE" EntityType="PolarTurModel.CORREOE" />
+  </EntityContainer>
+  <EntityType Name="CORREOE">
+    <Key>
+      <PropertyRef Name="NUM" />
+    </Key>
+    <Property Name="NUM" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="USUARIO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ASUNTO" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="TEXTO" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ESTADO" Type="Byte" Nullable="false" />
+    <Property Name="MENSAJE" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_ENVIO" Type="DateTime" Precision="3" />
+    <Property Name="HTML" Type="Boolean" />
+    <Property Name="MASIVO" Type="Boolean" />
+    <Property Name="DENOMBRE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DEDIRECCION" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="RECIBO" Type="Boolean" />
+    <Property Name="ACC" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="OBJ" Type="Int32" />
+    <Property Name="USUARIOACTUAL" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="tipo" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="PROVEEDOR" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="TextoEnTexto" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

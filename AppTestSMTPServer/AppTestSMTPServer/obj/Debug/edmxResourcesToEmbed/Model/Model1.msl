@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PolarTurModelStoreContainer" CdmEntityContainer="PolarTurEntities">
+    <EntitySetMapping Name="CORREOE">
+      <EntityTypeMapping TypeName="PolarTurModel.CORREOE">
+        <MappingFragment StoreEntitySet="CORREOE">
+          <ScalarProperty Name="TextoEnTexto" ColumnName="TextoEnTexto" />
+          <ScalarProperty Name="PROVEEDOR" ColumnName="PROVEEDOR" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+          <ScalarProperty Name="USUARIOACTUAL" ColumnName="USUARIOACTUAL" />
+          <ScalarProperty Name="OBJ" ColumnName="OBJ" />
+          <ScalarProperty Name="ACC" ColumnName="ACC" />
+          <ScalarProperty Name="RECIBO" ColumnName="RECIBO" />
+          <ScalarProperty Name="DEDIRECCION" ColumnName="DEDIRECCION" />
+          <ScalarProperty Name="DENOMBRE" ColumnName="DENOMBRE" />
+          <ScalarProperty Name="MASIVO" ColumnName="MASIVO" />
+          <ScalarProperty Name="HTML" ColumnName="HTML" />
+          <ScalarProperty Name="FECHA_ENVIO" ColumnName="FECHA_ENVIO" />
+          <ScalarProperty Name="MENSAJE" ColumnName="MENSAJE" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="TEXTO" ColumnName="TEXTO" />
+          <ScalarProperty Name="ASUNTO" ColumnName="ASUNTO" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+          <ScalarProperty Name="NUM" ColumnName="NUM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

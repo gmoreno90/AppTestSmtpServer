@@ -1,0 +1,5 @@
+c:\users\user\documents\visual studio 2013\Projects\AppTestSMTPServer\AppTestSMTPServer\bin\Debug\AppTestSMTPServer.exe.config
+c:\users\user\documents\visual studio 2013\Projects\AppTestSMTPServer\AppTestSMTPServer\bin\Debug\AppTestSMTPServer.exe
+c:\users\user\documents\visual studio 2013\Projects\AppTestSMTPServer\AppTestSMTPServer\bin\Debug\AppTestSMTPServer.pdb
+c:\users\user\documents\visual studio 2013\Projects\AppTestSMTPServer\AppTestSMTPServer\obj\Debug\AppTestSMTPServer.exe
+c:\users\user\documents\visual studio 2013\Projects\AppTestSMTPServer\AppTestSMTPServer\obj\Debug\AppTestSMTPServer.pdb

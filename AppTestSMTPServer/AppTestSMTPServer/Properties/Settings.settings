@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppTestSMTPServer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SmtpServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">##SMTP Address##</Value>
+    </Setting>
+    <Setting Name="SmtpPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="SmtpSSL" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SmtpUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">##UserNameAddress##</Value>
+    </Setting>
+    <Setting Name="SmtpEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">##EmailAddress##</Value>
+    </Setting>
+    <Setting Name="SmtpPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">##EmailPassword##</Value>
+    </Setting>
+    <Setting Name="SmtpDisplayName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Testing SMTP Server</Value>
+    </Setting>
+    <Setting Name="ToAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">##emailAdresses to sent email##</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

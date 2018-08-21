@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PolarTurModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CORREOE">
+    <Key>
+      <PropertyRef Name="NUM" />
+    </Key>
+    <Property Name="NUM" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="USUARIO" Type="varchar" MaxLength="50" />
+    <Property Name="FECHA" Type="datetime" Nullable="false" />
+    <Property Name="ASUNTO" Type="varchar" MaxLength="200" />
+    <Property Name="TEXTO" Type="text" />
+    <Property Name="ESTADO" Type="tinyint" Nullable="false" />
+    <Property Name="MENSAJE" Type="varchar(max)" />
+    <Property Name="FECHA_ENVIO" Type="datetime" />
+    <Property Name="HTML" Type="bit" />
+    <Property Name="MASIVO" Type="bit" />
+    <Property Name="DENOMBRE" Type="varchar" MaxLength="100" />
+    <Property Name="DEDIRECCION" Type="varchar" MaxLength="100" />
+    <Property Name="RECIBO" Type="bit" />
+    <Property Name="ACC" Type="char" MaxLength="3" />
+    <Property Name="OBJ" Type="int" />
+    <Property Name="USUARIOACTUAL" Type="varchar" MaxLength="15" />
+    <Property Name="tipo" Type="char" MaxLength="1" />
+    <Property Name="PROVEEDOR" Type="varchar" MaxLength="150" />
+    <Property Name="TextoEnTexto" Type="text" />
+  </EntityType>
+  <Function Name="CORREOE_GETXML" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="xml">
+    <Parameter Name="numcorreo" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="PolarTurModelStoreContainer">
+    <EntitySet Name="CORREOE" EntityType="Self.CORREOE" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
